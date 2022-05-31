@@ -1,0 +1,173 @@
+PODS:
+  - Alamofire (5.4.0)
+  - AppFoundation (0.0.1)
+  - CarbonKit (0.0.1):
+    - DifferenceKit
+  - Coordinator (0.0.1):
+    - Swinject
+  - Coordinators (0.0.1):
+    - Coordinator
+    - Dashboard
+    - Data
+  - Dashboard (0.0.1):
+    - CarbonKit
+    - Domain
+    - FeatureModule
+    - RxCocoa
+    - RxSwift
+    - Swinject
+    - UIComponents
+  - Data (0.0.1):
+    - AppFoundation
+    - Domain
+    - Moya
+    - Network
+    - RxSwift
+    - Swinject
+  - DifferenceKit (1.1.5):
+    - DifferenceKit/Core (= 1.1.5)
+    - DifferenceKit/UIKitExtension (= 1.1.5)
+  - DifferenceKit/Core (1.1.5)
+  - DifferenceKit/UIKitExtension (1.1.5):
+    - DifferenceKit/Core
+  - Differentiator (4.0.1)
+  - Domain (0.0.1):
+    - AppFoundation
+    - RxCocoa
+    - RxSwift
+    - Swinject
+  - FeatureModule (0.0.1)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (14.0.0):
+    - Moya/Core
+    - RxSwift (~> 5.0)
+  - Network (0.0.1):
+    - AppFoundation
+    - Domain
+    - Moya
+    - Moya/RxSwift
+    - RxRelay
+  - Nimble (9.0.1)
+  - Quick (3.1.2)
+  - RxBlocking (5.1.1):
+    - RxSwift (~> 5)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxNimble/Core (5.0.0):
+    - Nimble (~> 9.0)
+    - RxSwift (~> 5.0)
+  - RxNimble/RxBlocking (5.0.0):
+    - RxBlocking
+    - RxNimble/Core
+  - RxNimble/RxTest (5.0.0):
+    - RxNimble/Core
+    - RxTest
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - RxTest (5.1.2):
+    - RxSwift (~> 5)
+  - Swinject (2.7.1)
+  - UIComponents (0.0.1):
+    - AppFoundation
+    - CarbonKit
+    - Moya
+    - Moya/RxSwift
+    - RxRelay
+
+DEPENDENCIES:
+  - AppFoundation (from `Modules/Core/AppFoundation`)
+  - CarbonKit (from `Modules/Core/CarbonKit`)
+  - Coordinator (from `Modules/Core/Coordinator`)
+  - Coordinators (from `Modules/Coordinators`)
+  - Dashboard (from `Modules/Features/Dashboard`)
+  - Data (from `Modules/Data`)
+  - DifferenceKit
+  - Domain (from `Modules/Domain`)
+  - FeatureModule (from `Modules/Core/FeatureModule`)
+  - Network (from `Modules/Core/Network`)
+  - Quick
+  - RxBlocking
+  - RxDataSources (~> 4.0)
+  - RxNimble/RxBlocking
+  - RxNimble/RxTest
+  - RxTest
+  - Swinject (= 2.7.1)
+  - UIComponents (from `Modules/Core/UIComponents`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - DifferenceKit
+    - Differentiator
+    - Moya
+    - Nimble
+    - Quick
+    - RxBlocking
+    - RxCocoa
+    - RxDataSources
+    - RxNimble
+    - RxRelay
+    - RxSwift
+    - RxTest
+    - Swinject
+
+EXTERNAL SOURCES:
+  AppFoundation:
+    :path: Modules/Core/AppFoundation
+  CarbonKit:
+    :path: Modules/Core/CarbonKit
+  Coordinator:
+    :path: Modules/Core/Coordinator
+  Coordinators:
+    :path: Modules/Coordinators
+  Dashboard:
+    :path: Modules/Features/Dashboard
+  Data:
+    :path: Modules/Data
+  Domain:
+    :path: Modules/Domain
+  FeatureModule:
+    :path: Modules/Core/FeatureModule
+  Network:
+    :path: Modules/Core/Network
+  UIComponents:
+    :path: Modules/Core/UIComponents
+
+SPEC CHECKSUMS:
+  Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
+  AppFoundation: ed174593172fe48b8a8250db75727364ae1e75f1
+  CarbonKit: 479ef6ed4f5289bc474b0eae8afe679758838330
+  Coordinator: 6c37a9ec1b74c5c8cb7708153bc3906ff499dd3d
+  Coordinators: 16059cb6d6fbd5b129e0e00ead86c855e7734159
+  Dashboard: b53f183f7f00e11e2d0b558844b66e7d877d9ab4
+  Data: 070299e20876b21ddf49cd883a16b85d825995f6
+  DifferenceKit: 516f12e336ed65a3a0665847b5c3cb5cad4bd4ea
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  Domain: d9f04da7df7c19813f3aff7618cfb0db05ea8203
+  FeatureModule: 2f9310bef8ae827151a6cd7ca0d5b3d9e8791201
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  Network: 55d99a2f3cabd0def271f438f6e12074fa891824
+  Nimble: 7bed62ffabd6dbfe05f5925cbc43722533248990
+  Quick: 60f0ea3b8e0cfc0df3259a5c06a238ad8b3c46e0
+  RxBlocking: 5f700a78cad61ce253ebd37c9a39b5ccc76477b4
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxNimble: 3b757b0f8fb4dc487c3f9a383bc61a6f5bd72d28
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  RxTest: 274549b747dca56f47c52c8991ec5cf797ecfe40
+  Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
+  UIComponents: 4dfcac9b959e32bda71257fdcd859e2f13298ce5
+
+PODFILE CHECKSUM: b5b940fb20adc8b6abda676de12a8aecbfbf6321
+
+COCOAPODS: 1.10.1
